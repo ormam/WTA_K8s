@@ -15,5 +15,5 @@ spec:
         app: wta
     spec:
       containers:
-      - image: natalicot/wta_app:1.0.3
+      - image: natalicot/wta_app:1.0.2
         name: wta
