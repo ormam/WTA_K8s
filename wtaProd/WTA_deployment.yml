@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wta
+  labels:
+    app: wta
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wta
+  template:
+    metadata:
+      labels:
+        app: wta
+    spec:
+      containers:
+      - image: natalicot/wta_app:1.0.3
+        name: wta
