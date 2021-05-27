@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/natalicot/WTA_K8s.git
+    repoURL: https://github.com/ormam/WTA_K8s.git
     targetRevision: master
     path: wta/
   destination:
